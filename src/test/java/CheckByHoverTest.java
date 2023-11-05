@@ -20,7 +20,7 @@ public class CheckByHoverTest {
     }
 
     @Test
-    void selectEnterprizeByHover() {
+    void selectEnterprizeByHoverTest() {
 
         open("/");
         $(".header-menu-wrapper").$(byTagAndText("button", "Solutions")).hover();

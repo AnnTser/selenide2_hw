@@ -21,7 +21,7 @@ public class DragAndDropTest {
 
 
     @Test
-    void exchangeFiguresByDragAndDrop() {
+    void exchangeFiguresByDragAndDropTest() {
         open("/drag_and_drop");
         $(withText("Drag and Drop")).shouldBe(visible);
         $("#column-a").$("header").shouldHave(text("A"));
